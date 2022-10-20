@@ -40,8 +40,8 @@ def main(a,b,c):
     x=x1+x2+x3
     y=y1+y2+y3
     if x>y:
-        return "musbat son manfiydan ko'p" 
-
+        return "there are a lot of positive numbers"
     else :
-        return " manfiy son musbatdan ko'p"
+        return "there are a lot of negative numbers"
+
 print(main(3,-6,-9))
