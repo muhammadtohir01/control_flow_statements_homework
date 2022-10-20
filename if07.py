@@ -14,12 +14,12 @@ def main(a):
     """
     ans=''
     if a>0 and a%2==0:
-        ans='positive even'
+        ans='positive even number'
     if a<0 and a%2==0:
-        ans='negative even'
+        ans='negative even number'
     if a>0 and a%2!=0:
-        ans='positive odd'
+        ans='positive odd number'
     if a<0 and a%2!=0:
-        ans='negative odd'
+        ans='negative odd number'
     return ans
 print(main(-6))
