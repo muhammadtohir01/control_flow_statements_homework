@@ -1,5 +1,9 @@
 
 
+from tkinter import Y
+from turtle import ycor
+
+
 def main(a,b,c):
     """
     Find how many positive and how many negative numbers there are in the given numbers.
@@ -33,6 +37,11 @@ def main(a,b,c):
         y2=1
     if c<0:
         y3=1
-        return int(x1+x2+x3) , int(y1+y2+y3)
-    
+    x=x1+x2+x3
+    y=y1+y2+y3
+    if x>y:
+        return "musbat son manfiydan ko'p" 
+
+    else :
+        return " manfiy son musbatdan ko'p"
 print(main(3,-6,-9))
