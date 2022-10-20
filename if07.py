@@ -21,5 +21,8 @@ def main(a):
         ans='positive odd number'
     if a<0 and a%2!=0:
         ans='negative odd number'
-    return ans
-print(main(-6))
+        return ans
+    else:
+        return "the number is zero"
+
+print(main(0))
